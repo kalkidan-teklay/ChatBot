@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import styles from '../styles/AiGenerator.module.css';
+import styles from './styles/AiGenerator.module.css';
 
 
 export default function AIGenerator() {
