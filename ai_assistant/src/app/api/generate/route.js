@@ -11,7 +11,7 @@ export async function POST(req) {
     const apiUrl = "https://api.cohere.ai/v1/generate";
   
     const payload = {
-      model: "command-xlarge-nightly",
+      model: "command-a-03-2025",
       prompt,
       max_tokens: 100,
       temperature: 0.7,
